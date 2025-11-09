@@ -1,7 +1,7 @@
 const list = ['C is fun', 'Python is cool', 'Javascript is amazing'];
 
-let i = 0
-while(i < list.length){
+
+for (let i = 0; i < list.length; i++){
     console.log(list[i]);
-    i++;
+    
 }
